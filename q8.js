@@ -1,4 +1,4 @@
-db.createCollections("temp")
+db.createCollection("temp")
 
 //show collections
 
