@@ -6,6 +6,13 @@ db.employees.find(
     { department: { $eq: "HR" } }
 );
 
+db.employees.find(
+    { department: { $ne: "HR" } }
+);
+
+db.employees.find(
+    { department: {$not: { $eq: "HR" } }}
+);
 
 db.employees.find(
     { salary: { $eq: 5000 } }

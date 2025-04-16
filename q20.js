@@ -11,3 +11,11 @@ db.employees.find({
       { department: { $eq: "HR" } }
   ],
   });
+
+
+  db.employees.find({
+    $nor: [
+      { salary: { $gt: 2000 } }, 
+      { department: { $eq: "HR" } }
+  ],
+  });
