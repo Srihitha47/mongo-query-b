@@ -11,7 +11,7 @@ db.employees.updateOne(
 );
 
 db.employees.updateOne(
-  { email: "dat@gmail.com" },
+  { email: "dan@gmail.com" },
   {
     $set: {
       name: "Danial",
