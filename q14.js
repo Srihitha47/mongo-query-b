@@ -3,4 +3,6 @@ db.employees.updateOne(
   { $set: { department: "Admin" } }
 );
 
-db.employees.find()
+db.employees.find();
+
+
